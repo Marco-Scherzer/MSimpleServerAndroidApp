@@ -1,8 +1,8 @@
-# This is the Page of my MSimpleServer (jar) based MSimpleServer Android App.
-### MSimpleServerAndroidApp and MSimpleServer ( https://github.com/Marco-Scherzer/MSimpleServer )
-### are proprietary and protected by copyright law.
-### Idea, Author, and Copyright: Marco Scherzer
-### All rights reserved. This repository is to be treated as private.
+## This is the page of my MSimpleServer (jar) based MSimpleServer Android App.
+#### MSimpleServerAndroidApp and MSimpleServer ( https://github.com/Marco-Scherzer/MSimpleServer )
+#### are proprietary and protected by copyright law.
+#### Idea, Author, and Copyright: Marco Scherzer
+#### All rights reserved. This repository is to be treated as private.
 ###
 ###
 
@@ -17,8 +17,20 @@
 - **Webpage serving**
 - **Custom REST API** with own endpoint declarations
 
-#### Since October 31, 2025, I decided to develop MSimpleServer on GitHub.
+#### Since October 31, 2025, I decided to develop MSimpleServer on GitHub, continuing from this point.
 #### Note: Because I use Git as an addition to my history for proof of authorship, I regularly commit things in my (anyway *to treat as private*) repositories in an unready state (nothing works).
+
+## Runtime compatibility goal
+
+- **Java Runtimes:** 8–25
+- **Android Runtimes:** Android 10 API level 29 or newer
+
+JRE 8 Note:
+Modern SSL/TLS clients, such as current web browsers, prefere or require TLS 1.3 and updated TLS 1.2 cipher suites.
+These features seem to be available in JRE 8 distributions
+from version 8u261 onward (start of TLS 1.3 backport) and seem to be now complete/production ready backported
+since version 8u472 (released in October 2025) in builds that follow the OpenJDK upstream.
+(Testable with -Djavax.net.debug=ssl,handshake)
 
 ## Legal Notice
 This software is proprietary and protected by copyright law.  
@@ -232,13 +244,11 @@ my own. Everything I have built has been done only on my local computer, and eve
 protected by law. Only now, in my later years, I have published something here on GitHub for the first time.
 I did this in my old days as a kind of character test to the world,  
 because I always had more bad than good imaginations about open source and developing openly.  
-But sadly, until now it has always shown up sooner or later that I have been right from the beginning with my opinions about things in life, which I tell to others.  
+But sadly, until now it has always shown up sooner or later that I have been right from the beginning with my opinions.  
 Despite that, I sometimes give certain things a chance to come to a final conclusion for myself.  
 But I calculate with the worst case (that my code is just stolen or other negative things happen).
 Except for what I publish here on this GitHub page (https://github.com/Marco-Scherzer),
-all of my software projects remain closed-source. I did this on my old days as a kind of character test to the world,
-because I always had more bad than good imaginations about open source and developing open. But sadly until know
-it always showed up sooner or later that I've been from the beginning on always right with my opions about things during life.
+all of my software projects remain closed-source.
 
 
 ---
